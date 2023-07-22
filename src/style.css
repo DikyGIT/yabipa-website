@@ -1,0 +1,254 @@
+* {
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* ? Navbar */
+.navbar-nav a {
+  color: black;
+}
+
+@media screen and (max-width: 992px) {
+  .navbar-nav a {
+    font-size: 24px;
+    font-weight: 500;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .logo-img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .logo-text {
+    font-size: 16px;
+  }
+}
+/* ? Navbar */
+
+/* ? Homepage */
+
+.homepage section {
+  padding-top: 150px;
+  /* padding-bottom: 100px; */
+}
+
+.homepage .section-title {
+  font-weight: bold;
+  font-size: 50px;
+  /* border-bottom: 5px solid #002852; */
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+@media screen and (max-width: 475px) {
+  .homepage .section-title {
+    font-size: 40px;
+  }
+}
+
+/* Hero */
+.homepage .hero .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.homepage .hero .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.homepage .hero .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.homepage .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.homepage .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+  background-color: white;
+}
+
+.homepage .autoplay-progress {
+  position: absolute;
+  right: 16px;
+  bottom: 16px;
+  z-index: 10;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: white;
+}
+
+.homepage .autoplay-progress svg {
+  --progress: 0;
+  position: absolute;
+  left: 0;
+  top: 0px;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  stroke-width: 4px;
+  stroke: white;
+  fill: none;
+  stroke-dashoffset: calc(125.6 * (1 - var(--progress)));
+  stroke-dasharray: 125.6;
+  transform: rotate(-90deg);
+}
+
+.homepage .hero .hero-title {
+  text-align: left;
+  position: absolute;
+  padding-top: 100px;
+  /* top: 60%;
+  left: 130px;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%); */
+}
+
+.homepage .hero .hero-title h1 {
+  color: #f8f9fa;
+  font-weight: bold;
+  font-size: 50px;
+  border-bottom: 5px solid skyblue;
+  display: inline;
+  line-height: 1.5;
+}
+
+.homepage .hero .hero-title p {
+  color: #f8f9fa;
+  font-weight: 300;
+  line-height: 2;
+  width: 60%;
+  padding-top: 20px;
+  opacity: 80%;
+}
+/* Hero */
+
+/* Scrollbar Custon */
+::-webkit-scrollbar {
+  width: 0;
+}
+/* Scrollbar Custon */
+
+@media screen and (max-width: 992px) {
+  .homepage .hero .hero-title p {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .homepage .hero .hero-title p {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .homepage .hero .hero-title p {
+    width: 100%;
+    padding-right: 10px;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .homepage .hero .hero-title h1 {
+    font-size: 40px;
+  }
+
+  .homepage .hero .hero-title p {
+    font-size: 14px;
+  }
+}
+/* Hero */
+
+/* Galeri */
+.homepage .galeri-kegiatan .galeri-title {
+  height: 40vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./assets/homepage/gallery/galeri-img-section.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+/* Galeri */
+
+/* ? Homepage */
+
+/* ? Profile */
+.profil .section-title {
+  padding-top: 200px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.profil .section-title h1 {
+  font-weight: bold;
+  font-size: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .profil .section-title h1 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .profil .section-title h1 {
+    font-size: 32px;
+  }
+}
+
+/* Tentang kami */
+/* Tentang kami */
+/* ? Profile */
+
+/* ? Gallery */
+.gallery .section-title {
+  padding-top: 200px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.gallery .section-title h1 {
+  font-weight: bold;
+  font-size: 50px;
+}
+/* KBM */
+
+/* KBM */
+/* ? Gallery */
+
+/* Footer */
+.footer {
+  width: 100%;
+  min-height: 50vh;
+  padding-top: 100px;
+  padding-bottom: 30px;
+  margin-top: 100px;
+  background-color: #f6f8fd;
+}
+
+@media screen and (max-width: 992px) {
+  .footer .row:nth-child(1) {
+    flex-direction: row-reverse;
+  }
+}
+/* Footer */
