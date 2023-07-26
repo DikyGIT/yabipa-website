@@ -48,7 +48,9 @@ const NavbarComponent = () => {
                   <Nav.Link href="/">Beranda</Nav.Link>
                   <div>
                     <NavDropdown title="Profil" id={`offcanvasNavbarDropdown-expand-${expand}`}>
-                      <NavDropdown.Item href="/tentang">Tentang Kami</NavDropdown.Item>
+                      <Nav.Link href="/tentang" className="dropdown-item">
+                        Tentang Kami
+                      </Nav.Link>
                       <NavDropdown.Item href="/sejarah">Sejarah</NavDropdown.Item>
                       <NavDropdown.Item href="/visi-misi">Visi dan Misi</NavDropdown.Item>
                       <NavDropdown.Item href="/profil-santri">Profil Santri S2MB3</NavDropdown.Item>
