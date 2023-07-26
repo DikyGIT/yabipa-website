@@ -76,7 +76,7 @@ const NavbarComponent = () => {
                       <NavDropdown.Item href="#action/3.3">Kalender Pendidikan</NavDropdown.Item>
                     </NavDropdown>
                   </div>
-                  <Nav.Link href="#home">PPDB</Nav.Link>
+                  <Nav.Link href="/ppdb">PPDB</Nav.Link>
                   <Nav.Link href="#home">Kontak & Sosial Media</Nav.Link>
                 </Nav>
               </Offcanvas.Body>

@@ -20,6 +20,7 @@ import TentangPage from "./pages/profil/TentangPage";
 // import KBMPage from "./pages/gallery/KBMPage";
 // import LifeSkillPage from "./pages/gallery/LifeSkillPage";
 // import MunaqosyahPage from "./pages/gallery/MunaqosyahPage";
+import PPDBPage from "./pages/PPDB/PPDBPage";
 
 function App() {
   return (
@@ -42,6 +43,7 @@ function App() {
         <Route path="/gallery-graduation" Component={GraduationPage} />
         <Route path="/gallery-fieldtrip" Component={FieldTripPage} />
         <Route path="/gallery-munaqosyah" Component={MunaqosyahPage} /> */}
+        <Route path="/ppdb" Component={PPDBPage} />
       </Routes>
 
       {/* Footer */}
